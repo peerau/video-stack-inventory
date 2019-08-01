@@ -1,14 +1,14 @@
 ---
-room_name: suzanne_scharer
+room_name:  hayscape
 
 blackmagic_sources:
-# Mini JVC, audio is coming from a DVX-100
+    # JVC big un
 - card: 0
   connection: HDMI
   audio: true
   mode: 18
 
 sources:
-- Audio Camera
-- Grabber
 - Camera
+- Grabber
+  # - Audio_Camera

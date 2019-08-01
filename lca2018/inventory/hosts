@@ -1,10 +1,9 @@
 [dhcp-server]
-edge
 gw
 
 [nfs-server]
-edge
 gw
+storage
 
 [voctomix]
 r1mix
@@ -41,6 +40,8 @@ minnow1
 minnow2
 
 [veyepar-basic]
+storage
+edge
 
 [veyepar-encoder-nfs-storage]
 
@@ -50,12 +51,15 @@ minnow2
 nuc
 gw
 spare1
+spare2
 spare3
 spare4
 spare5
+spare6
 
 [onsite]
 spare2
+# edge
 
 [onsite:children]
 dhcp-server

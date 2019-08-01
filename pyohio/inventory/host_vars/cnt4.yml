@@ -1,12 +1,14 @@
 ---
-room_name: cartoon1
+room_name: suzanne_scharer
 
-# JVC 4k
+video_disk: /dev/disk/by-path/pci-0000:00:1f.2-ata-2-part1
+
+# Panasonic AVCHD, HDMI
 blackmagic_sources:
 - card: 0
-  connection: SDI
+  connection: HDMI
   audio: true
-  mode: 17
+  mode: 18
 
 sources:
 - Camera
